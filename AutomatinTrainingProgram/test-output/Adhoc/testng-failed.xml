@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="6" parallel="tests" name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="tests" name="RegressionOfChrome(failed)">
+    <parameter name="browsers" value="Chrome"/>
+    <classes>
+      <class name="piit.AutomatinTrainingProgram.Signout">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.AutomatinTrainingProgram.Signout -->
+    </classes>
+  </test> <!-- RegressionOfChrome(failed) -->
   <test thread-count="6" parallel="tests" name="RegressionOfEdge(failed)">
     <parameter name="browsers" value="Edge"/>
     <classes>
       <class name="piit.AutomatinTrainingProgram.Signout">
         <methods>
           <include name="f"/>
+          <include name="beforeClass"/>
           <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
         </methods>
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
-      <class name="piit.AutomatinTrainingProgram.browsers">
-        <methods>
-          <include name="f"/>
-        </methods>
-      </class> <!-- piit.AutomatinTrainingProgram.browsers -->
     </classes>
   </test> <!-- RegressionOfEdge(failed) -->
   <test thread-count="6" parallel="tests" name="RegressionOfFirefox(failed)">
@@ -22,31 +32,11 @@
     <classes>
       <class name="piit.AutomatinTrainingProgram.Signout">
         <methods>
-          <include name="f"/>
+          <include name="beforeClass"/>
           <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
         </methods>
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
-      <class name="piit.AutomatinTrainingProgram.browsers">
-        <methods>
-          <include name="f"/>
-        </methods>
-      </class> <!-- piit.AutomatinTrainingProgram.browsers -->
     </classes>
   </test> <!-- RegressionOfFirefox(failed) -->
-  <test thread-count="6" parallel="tests" name="RegressionOfChrome(failed)">
-    <parameter name="browsers" value="Chrome"/>
-    <classes>
-      <class name="piit.AutomatinTrainingProgram.Signout">
-        <methods>
-          <include name="f"/>
-          <include name="TextVerificationMethod"/>
-        </methods>
-      </class> <!-- piit.AutomatinTrainingProgram.Signout -->
-      <class name="piit.AutomatinTrainingProgram.browsers">
-        <methods>
-          <include name="f"/>
-        </methods>
-      </class> <!-- piit.AutomatinTrainingProgram.browsers -->
-    </classes>
-  </test> <!-- RegressionOfChrome(failed) -->
 </suite> <!-- Failed suite [Adhoc] -->

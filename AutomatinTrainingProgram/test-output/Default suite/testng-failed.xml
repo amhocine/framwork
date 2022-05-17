@@ -5,8 +5,11 @@
     <classes>
       <class name="piit.AutomatinTrainingProgram.Signout">
         <methods>
+          <include name="Pictures"/>
+          <include name="beforeClass"/>
           <include name="f"/>
           <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
         </methods>
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
     </classes>

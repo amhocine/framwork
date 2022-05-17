@@ -1,11 +1,14 @@
 package M.common;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.AfterClass;
+
+
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,10 +21,9 @@ import org.testng.annotations.Test;
 public class Utility {
 	public WebDriver driver;
  @Parameters({"browsers"})
- 
- 
   @BeforeClass
   public void beforeClass(String window) {
+	
 	if (window.equalsIgnoreCase("Chrome")) {
 		  System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\amgha\\\\eclipse-workspace\\\\AutomatinTrainingProgram\\\\drivers\\\\chromedriver.exe");
 		    driver=new ChromeDriver();
@@ -35,7 +37,7 @@ public class Utility {
 		 driver.manage().window().maximize();
 	  }
 	  	else if(window.equalsIgnoreCase("Firefox"))  {
-		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\amgha\\git\\repositorytoframework\\AutomatinTrainingProgram\\drivers\\geckodriver.exe");
+		  System.setProperty("webdriver.gecko.driver", "C:\\Users\\amgha\\eclipse-workspace\\AutomatinTrainingProgram\\drivers\\geckodriver.exe");
 		  driver=new FirefoxDriver();
 		  driver .navigate().to("http://www.facebook.com");
 		  driver.manage().window().maximize();
