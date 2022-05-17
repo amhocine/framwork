@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-12T18:49:22 EDT" name="Adhoc" finished-at="2022-05-12T18:50:05 EDT" duration-ms="43065">
+  <suite started-at="2022-05-17T16:52:31 EDT" name="Adhoc" finished-at="2022-05-17T16:53:13 EDT" duration-ms="42402">
     <groups>
     </groups>
-    <test started-at="2022-05-12T18:49:22 EDT" name="RegressionOfChrome" finished-at="2022-05-12T18:49:40 EDT" duration-ms="18227">
+    <test started-at="2022-05-17T16:52:31 EDT" name="RegressionOfChrome" finished-at="2022-05-17T16:52:49 EDT" duration-ms="18515">
       <class name="piit.AutomatinTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-12T18:49:32 EDT" name="beforeClass" finished-at="2022-05-12T18:49:34 EDT" duration-ms="2016" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-17T16:52:41 EDT" name="beforeClass" finished-at="2022-05-17T16:52:43 EDT" duration-ms="2117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-12T18:49:34 EDT" name="Pictures" finished-at="2022-05-12T18:49:34 EDT" duration-ms="147" status="PASS">
+        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-17T16:52:43 EDT" name="Pictures" finished-at="2022-05-17T16:52:43 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Pictures -->
-        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-12T18:49:34 EDT" name="TextVerificationMethod" finished-at="2022-05-12T18:49:40 EDT" duration-ms="6123" status="FAIL">
+        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-17T16:52:43 EDT" name="TextVerificationMethod" finished-at="2022-05-17T16:52:49 EDT" duration-ms="6115" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Please enter your email')]"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53740aa941c99a5c27904d4da4cc38ce, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54050/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53740aa941c99a5c27904d4da4cc38ce]]>
+Command: [fd33e6104b1c8b542257c177d25cf42d, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd33e6104b1c8b542257c177d25cf42d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Please enter your email')]"}
@@ -42,9 +42,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53740aa941c99a5c27904d4da4cc38ce, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54050/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53740aa941c99a5c27904d4da4cc38ce
+Command: [fd33e6104b1c8b542257c177d25cf42d, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd33e6104b1c8b542257c177d25cf42d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -94,7 +94,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextVerificationMethod -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-12T18:49:40 EDT" name="f" finished-at="2022-05-12T18:49:40 EDT" duration-ms="23" status="FAIL">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-17T16:52:49 EDT" name="f" finished-at="2022-05-17T16:52:49 EDT" duration-ms="23" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
@@ -103,9 +103,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53740aa941c99a5c27904d4da4cc38ce, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54050/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53740aa941c99a5c27904d4da4cc38ce]]>
+Command: [fd33e6104b1c8b542257c177d25cf42d, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd33e6104b1c8b542257c177d25cf42d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
@@ -114,9 +114,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53740aa941c99a5c27904d4da4cc38ce, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54050/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53740aa941c99a5c27904d4da4cc38ce
+Command: [fd33e6104b1c8b542257c177d25cf42d, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\amgha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd33e6104b1c8b542257c177d25cf42d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -166,13 +166,13 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-12T18:49:40 EDT" name="afterClass" finished-at="2022-05-12T18:49:40 EDT" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@437da279]" started-at="2022-05-17T16:52:49 EDT" name="afterClass" finished-at="2022-05-17T16:52:49 EDT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
       <class name="piit.AutomatinTrainingProgram.browsers">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-12T18:49:22 EDT" name="beforeClass" finished-at="2022-05-12T18:49:27 EDT" duration-ms="5025" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-17T16:52:31 EDT" name="beforeClass" finished-at="2022-05-17T16:52:36 EDT" duration-ms="5175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,49 +183,49 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-12T18:49:27 EDT" name="f" finished-at="2022-05-12T18:49:27 EDT" duration-ms="239" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-17T16:52:36 EDT" name="f" finished-at="2022-05-17T16:52:36 EDT" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-12T18:49:27 EDT" name="afterClass" finished-at="2022-05-12T18:49:32 EDT" duration-ms="4504" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@957e06]" started-at="2022-05-17T16:52:36 EDT" name="afterClass" finished-at="2022-05-17T16:52:41 EDT" duration-ms="4543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.browsers -->
       <class name="piit.AutomatinTrainingProgram.Execution">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:22 EDT" name="beforeTest" finished-at="2022-05-12T18:49:22 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:31 EDT" name="beforeTest" finished-at="2022-05-17T16:52:31 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="beforeClass" finished-at="2022-05-12T18:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="beforeClass" finished-at="2022-05-17T16:52:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="beforeMethod" finished-at="2022-05-12T18:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="beforeMethod" finished-at="2022-05-17T16:52:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="f" finished-at="2022-05-12T18:49:40 EDT" duration-ms="1" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="f" finished-at="2022-05-17T16:52:49 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="afterMethod" finished-at="2022-05-12T18:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="afterMethod" finished-at="2022-05-17T16:52:49 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="afterClass" finished-at="2022-05-12T18:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="afterClass" finished-at="2022-05-17T16:52:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-12T18:49:40 EDT" name="afterTest" finished-at="2022-05-12T18:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@67f639d3]" started-at="2022-05-17T16:52:49 EDT" name="afterTest" finished-at="2022-05-17T16:52:49 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- piit.AutomatinTrainingProgram.Execution -->
     </test> <!-- RegressionOfChrome -->
-    <test started-at="2022-05-12T18:49:22 EDT" name="RegressionOfEdge" finished-at="2022-05-12T18:49:42 EDT" duration-ms="19972">
+    <test started-at="2022-05-17T16:52:31 EDT" name="RegressionOfEdge" finished-at="2022-05-17T16:52:51 EDT" duration-ms="20716">
       <class name="piit.AutomatinTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-12T18:49:32 EDT" name="beforeClass" finished-at="2022-05-12T18:49:36 EDT" duration-ms="3803" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-17T16:52:41 EDT" name="beforeClass" finished-at="2022-05-17T16:52:45 EDT" duration-ms="3804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,33 +236,33 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-12T18:49:36 EDT" name="Pictures" finished-at="2022-05-12T18:49:36 EDT" duration-ms="148" status="PASS">
+        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-17T16:52:45 EDT" name="Pictures" finished-at="2022-05-17T16:52:45 EDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Pictures -->
-        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-12T18:49:36 EDT" name="TextVerificationMethod" finished-at="2022-05-12T18:49:42 EDT" duration-ms="6102" status="FAIL">
+        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-17T16:52:45 EDT" name="TextVerificationMethod" finished-at="2022-05-17T16:52:51 EDT" duration-ms="6118" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Please enter your email')]"}
-  (Session info: MicrosoftEdge=101.0.1210.39)
+  (Session info: MicrosoftEdge=101.0.1210.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e29988fd85f4d8b3a8a6e436df794c58, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54075}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54075/devtoo..., se:cdpVersion: 101.0.1210.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e29988fd85f4d8b3a8a6e436df794c58]]>
+Command: [dfc05fe8ea95c00bb46a58aff9e3a2af, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51739}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51739/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfc05fe8ea95c00bb46a58aff9e3a2af]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Please enter your email')]"}
-  (Session info: MicrosoftEdge=101.0.1210.39)
+  (Session info: MicrosoftEdge=101.0.1210.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e29988fd85f4d8b3a8a6e436df794c58, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54075}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54075/devtoo..., se:cdpVersion: 101.0.1210.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e29988fd85f4d8b3a8a6e436df794c58
+Command: [dfc05fe8ea95c00bb46a58aff9e3a2af, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51739}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51739/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfc05fe8ea95c00bb46a58aff9e3a2af
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -312,29 +312,29 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextVerificationMethod -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-12T18:49:42 EDT" name="f" finished-at="2022-05-12T18:49:42 EDT" duration-ms="21" status="FAIL">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-17T16:52:51 EDT" name="f" finished-at="2022-05-17T16:52:51 EDT" duration-ms="23" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: MicrosoftEdge=101.0.1210.39)
+  (Session info: MicrosoftEdge=101.0.1210.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e29988fd85f4d8b3a8a6e436df794c58, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54075}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54075/devtoo..., se:cdpVersion: 101.0.1210.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e29988fd85f4d8b3a8a6e436df794c58]]>
+Command: [dfc05fe8ea95c00bb46a58aff9e3a2af, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51739}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51739/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfc05fe8ea95c00bb46a58aff9e3a2af]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: MicrosoftEdge=101.0.1210.39)
+  (Session info: MicrosoftEdge=101.0.1210.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e29988fd85f4d8b3a8a6e436df794c58, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54075}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54075/devtoo..., se:cdpVersion: 101.0.1210.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e29988fd85f4d8b3a8a6e436df794c58
+Command: [dfc05fe8ea95c00bb46a58aff9e3a2af, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.47, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51739}, msedge: {msedgedriverVersion: 101.0.1210.39 (ae7c307992c2..., userDataDir: C:\Users\amgha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51739/devtoo..., se:cdpVersion: 101.0.1210.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfc05fe8ea95c00bb46a58aff9e3a2af
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -384,13 +384,13 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-12T18:49:42 EDT" name="afterClass" finished-at="2022-05-12T18:49:42 EDT" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@4d154ccd]" started-at="2022-05-17T16:52:51 EDT" name="afterClass" finished-at="2022-05-17T16:52:51 EDT" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
       <class name="piit.AutomatinTrainingProgram.browsers">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-12T18:49:22 EDT" name="beforeClass" finished-at="2022-05-12T18:49:27 EDT" duration-ms="5108" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-17T16:52:31 EDT" name="beforeClass" finished-at="2022-05-17T16:52:36 EDT" duration-ms="5633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,57 +401,57 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-12T18:49:27 EDT" name="f" finished-at="2022-05-12T18:49:27 EDT" duration-ms="241" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-17T16:52:36 EDT" name="f" finished-at="2022-05-17T16:52:37 EDT" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-12T18:49:27 EDT" name="afterClass" finished-at="2022-05-12T18:49:32 EDT" duration-ms="4442" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@65c7a252]" started-at="2022-05-17T16:52:37 EDT" name="afterClass" finished-at="2022-05-17T16:52:41 EDT" duration-ms="4617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.browsers -->
       <class name="piit.AutomatinTrainingProgram.Execution">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:22 EDT" name="beforeSuite" finished-at="2022-05-12T18:49:22 EDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:31 EDT" name="beforeSuite" finished-at="2022-05-17T16:52:31 EDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:22 EDT" name="beforeTest" finished-at="2022-05-12T18:49:22 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:31 EDT" name="beforeTest" finished-at="2022-05-17T16:52:31 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="beforeMethod" finished-at="2022-05-12T18:49:42 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="beforeClass" finished-at="2022-05-12T18:49:42 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="beforeClass" finished-at="2022-05-17T16:52:51 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="f" finished-at="2022-05-12T18:49:42 EDT" duration-ms="0" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="f" finished-at="2022-05-17T16:52:51 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="afterMethod" finished-at="2022-05-12T18:49:42 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="beforeMethod" finished-at="2022-05-17T16:52:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="afterMethod" finished-at="2022-05-17T16:52:51 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="afterClass" finished-at="2022-05-12T18:49:42 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:49:42 EDT" name="afterTest" finished-at="2022-05-12T18:49:42 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="afterTest" finished-at="2022-05-17T16:52:51 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-12T18:50:05 EDT" name="afterSuite" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:52:51 EDT" name="afterClass" finished-at="2022-05-17T16:52:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@229c6181]" started-at="2022-05-17T16:53:13 EDT" name="afterSuite" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- piit.AutomatinTrainingProgram.Execution -->
     </test> <!-- RegressionOfEdge -->
-    <test started-at="2022-05-12T18:49:22 EDT" name="RegressionOfFirefox" finished-at="2022-05-12T18:50:05 EDT" duration-ms="43065">
+    <test started-at="2022-05-17T16:52:31 EDT" name="RegressionOfFirefox" finished-at="2022-05-17T16:53:13 EDT" duration-ms="42402">
       <class name="piit.AutomatinTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-12T18:49:35 EDT" name="beforeClass" finished-at="2022-05-12T18:49:39 EDT" duration-ms="4064" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-17T16:52:43 EDT" name="beforeClass" finished-at="2022-05-17T16:52:47 EDT" duration-ms="4400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,11 +462,11 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-12T18:49:39 EDT" name="Pictures" finished-at="2022-05-12T18:49:39 EDT" duration-ms="93" status="PASS">
+        <test-method signature="Pictures()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-17T16:52:47 EDT" name="Pictures" finished-at="2022-05-17T16:52:47 EDT" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Pictures -->
-        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-12T18:49:39 EDT" name="TextVerificationMethod" finished-at="2022-05-12T18:49:45 EDT" duration-ms="6036" status="FAIL">
+        <test-method signature="TextVerificationMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-17T16:52:47 EDT" name="TextVerificationMethod" finished-at="2022-05-17T16:52:53 EDT" duration-ms="6029" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //*[contains(text(),'Please enter your email')]
@@ -474,9 +474,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [10e26464-6b52-4798-8c70-a84070e06353, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:60506, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7548, moz:profile: C:\Users\amgha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60506/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 10e26464-6b52-4798-8c70-a84070e06353]]>
+Command: [83241e1c-9755-4332-8e7f-4b80a7222917, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:54250, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14248, moz:profile: C:\Users\amgha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54250/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83241e1c-9755-4332-8e7f-4b80a7222917]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(),'Please enter your email')]
@@ -484,9 +484,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'DESKTOP-EHKADM5', ip: '10.0.0.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [10e26464-6b52-4798-8c70-a84070e06353, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:60506, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7548, moz:profile: C:\Users\amgha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60506/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 10e26464-6b52-4798-8c70-a84070e06353
+Command: [83241e1c-9755-4332-8e7f-4b80a7222917, findElement {using=xpath, value=//*[contains(text(),'Please enter your email')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:54250, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14248, moz:profile: C:\Users\amgha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54250/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83241e1c-9755-4332-8e7f-4b80a7222917
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -536,17 +536,17 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextVerificationMethod -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-12T18:49:45 EDT" name="f" finished-at="2022-05-12T18:50:04 EDT" duration-ms="19112" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-17T16:52:53 EDT" name="f" finished-at="2022-05-17T16:53:12 EDT" duration-ms="19026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-12T18:50:04 EDT" name="afterClass" finished-at="2022-05-12T18:50:05 EDT" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Signout@25641d39]" started-at="2022-05-17T16:53:12 EDT" name="afterClass" finished-at="2022-05-17T16:53:13 EDT" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.Signout -->
       <class name="piit.AutomatinTrainingProgram.browsers">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-12T18:49:22 EDT" name="beforeClass" finished-at="2022-05-12T18:49:30 EDT" duration-ms="7560" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-17T16:52:31 EDT" name="beforeClass" finished-at="2022-05-17T16:52:38 EDT" duration-ms="7547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,41 +557,41 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-12T18:49:30 EDT" name="f" finished-at="2022-05-12T18:49:34 EDT" duration-ms="4397" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-17T16:52:38 EDT" name="f" finished-at="2022-05-17T16:52:42 EDT" duration-ms="3613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-12T18:49:34 EDT" name="afterClass" finished-at="2022-05-12T18:49:35 EDT" duration-ms="794" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.browsers@4a883b15]" started-at="2022-05-17T16:52:42 EDT" name="afterClass" finished-at="2022-05-17T16:52:43 EDT" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- piit.AutomatinTrainingProgram.browsers -->
       <class name="piit.AutomatinTrainingProgram.Execution">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:49:22 EDT" name="beforeTest" finished-at="2022-05-12T18:49:22 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:52:31 EDT" name="beforeTest" finished-at="2022-05-17T16:52:31 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="f" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="beforeMethod" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="beforeMethod" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="afterClass" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
+        <test-method signature="f()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="f" finished-at="2022-05-17T16:53:13 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="afterTest" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="beforeClass" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="beforeClass" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-12T18:50:05 EDT" name="afterMethod" finished-at="2022-05-12T18:50:05 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="afterTest" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="afterClass" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomatinTrainingProgram.Execution@7b36aa0c]" started-at="2022-05-17T16:53:13 EDT" name="afterMethod" finished-at="2022-05-17T16:53:13 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
